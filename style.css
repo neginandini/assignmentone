@@ -1,0 +1,185 @@
+ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0px;  
+    overflow: hidden;  
+    background-color:black;  
+
+  }  
+    
+  li {  
+    float:right;  
+  }  
+    
+  li a {  
+    display: block;  
+    color:white;  
+   font-size:20px;  
+    text-align: center;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+  }  
+  .active{  
+  background-color:brown;  
+  color: white;  
+  }  
+  li a:hover {  
+    background-color:brown;  
+    color:white;  
+  }  
+  .divtwo {
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 17mm;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: larger;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  #imgone {
+    max-width: 100%;
+    border-radius: 18%;
+  }
+  .image {
+    flex-basis: 40%
+    
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 25px;
+    color: #241b03;
+  }
+.text h1{
+  color:rgba(97, 5, 5, 0.959);
+  font-family: cursive;
+}
+#para2{
+  float:left;
+}
+  .containerham {
+    display: inline-block;
+    cursor: pointer;
+  }
+  #body2{
+    background-color:navajowhite;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+
+  .dropbtn {
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:black;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  .dropdown-content a:hover{
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  .show {display: block;}
+
+#regbody{
+  background: url("coffee.jpg");
+  background-size: cover;
+  min-height: 100%;
+  background-repeat: no-repeat;
+
+}
+#form>input,#form>button{
+
+  margin: 10px 30px;
+}
+
+#wrapper{
+  background: rgba(255,255, 255, 0.7);
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+
+}
+#divtwo>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+
+}
+#divtwo{
+  display: grid;
+  grid-template-rows: minmax(100px,auto);
+  justify-content: center;
+
+}
+#seats{
+  width: 150px;
+
+}
+input{
+  outline: none;
+  background: none;
+  border:none;
+  border-bottom: 2px solid white;
+  
+}
+#resbtn {
+  outline: none;
+  background: rgba(255, 0, 0, 0.8);
+  border: none;
+  padding: 10px;
+  color: white;
+  z-index: 3;
+
+}
+
